@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {ChakraProvider} from "@chakra-ui/react"
 
+import ComparisonTable from 'layout/components/ComparisonTable';
+
 const App = () => {
   return (
-    null
+    <ComparisonTable/>
   );
 }
 
